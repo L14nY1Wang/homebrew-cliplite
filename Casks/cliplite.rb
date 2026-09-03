@@ -9,6 +9,8 @@ cask "cliplite" do
   desc "极低内存的 macOS 截图 / 贴图 / 标注 / OCR 工具"
   homepage "https://github.com/L14nY1Wang/ClipLite"
 
+  depends_on macos: :sonoma
+
   livecheck do
     url "https://github.com/L14nY1Wang/ClipLite"
     strategy :github_latest
