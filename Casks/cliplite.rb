@@ -10,7 +10,7 @@ cask "cliplite" do
   homepage "https://github.com/L14nY1Wang/ClipLite"
 
   livecheck do
-    url :latest
+    url "https://github.com/L14nY1Wang/ClipLite"
     strategy :github_latest
   end
 
