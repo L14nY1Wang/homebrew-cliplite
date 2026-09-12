@@ -1,8 +1,8 @@
 cask "cliplite" do
   arch arm: "arm64"
 
-  version "0.1.1"
-  sha256 arm: "61294d13eeec681e4e5b210c9896a1cb2ac8517c004cb0bd97ba72a12f57d682"
+  version "0.2.0"
+  sha256 arm: "6b853ab044a1b47d0859dcb912ab93acd337fc79c4246cf997640e76be9769ac"
 
   url "https://github.com/L14nY1Wang/ClipLite/releases/download/v#{version}/ClipLite-#{version}.dmg"
   name "ClipLite"
